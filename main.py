@@ -53,7 +53,6 @@ async def add_currency_btn(message):
         users[message.chat.id]['cryptocurrencies'][add_currency[0]] = add_currency[1]
         await add_currency_to_list(message, add_currency)
         await message.answer(f'В ваше меню добавлена валютa: {add_currency[1]}, вы можете получить обновленный список валют через команду /menu')
-        print(f'{message.chat.id} add {add_currency}')
     else:
         await message.answer(f'В вашем меню уже есть валюта {add_currency[1]}')
 
