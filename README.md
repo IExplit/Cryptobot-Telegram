@@ -5,3 +5,6 @@
 Для запуска бота необходимо установить библиотеки aiogram и aiohttp
 pip install aiogram==2.25.1
 pip install aiohttp==3.8.3
+
+Для запуска проекта
+python (путь к файлу main.py)
